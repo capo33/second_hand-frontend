@@ -9,20 +9,10 @@
 
 ## Usage
 
-### Env Variables
-
-Create `.env` file and add the following
+### Install Dependencies (frontend)
 
 ```
-PORT = 5000
-```
-
-### Install Dependencies (frontend & backend)
-
-```
-cd backend
-yarn
-cd frontend
+cd root directory
 yarn
 ```
 
@@ -31,11 +21,7 @@ yarn
 ```
 
 # Run frontend (:3000)
-cd frontend
 yarn start
-
- # Run backend (:5000)
-yarn run dev
 ```
 
 ## Tech
@@ -43,15 +29,9 @@ yarn run dev
 Frontend
 
 - [React]
-- [Apollo-Client]
+- [ApolloClient]
 
-Backend
-
-- [node.js]
-- [Apollo-Server]
 
 [React]: https://react.dev/
-[node.js]: http://nodejs.org
-[Apollo Server]: https://www.apollographql.com/docs/apollo-server/
-[Apollo Client]: https://www.apollographql.com/docs/react
+[ApolloClient]: https://www.apollographql.com/docs/react
  
