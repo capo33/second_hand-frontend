@@ -9,7 +9,7 @@ import routes from "./routes/routes";
 
 const client = new ApolloClient({
   // uri: "http://localhost:4000",
-  uri: "https://secondhand-backend-production.up.railway.app/",
+  uri: "https://secondhand-backend-production.up.railway.app",
   cache: new InMemoryCache(),
 });
 
