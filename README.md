@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Second Hand Shop eCommerce GraphQL Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> eCommerce platform built with the GraphQl and Node in the backend & rGraphQl and React in the frontend.
 
-## Available Scripts
+<img src="./homeScreen.png">
+<img src="./detailsScreen.png">
+<img src="./cartScreen.png">
 
-In the project directory, you can run:
 
-### `yarn start`
+## Usage
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Env Variables
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Create `.env` file and add the following
 
-### `yarn test`
+```
+PORT = 5000
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Install Dependencies (frontend & backend)
 
-### `yarn build`
+```
+cd backend
+yarn
+cd frontend
+yarn
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Run
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Run frontend (:3000)
+cd frontend
+yarn start
 
-### `yarn eject`
+ # Run backend (:5000)
+yarn run dev
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Tech
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Frontend
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- [React]
+- [Apollo-Client]
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Backend
 
-## Learn More
+- [node.js]
+- [Apollo-Server]
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[React]: https://react.dev/
+[node.js]: http://nodejs.org
+[Apollo Server]: https://www.apollographql.com/docs/apollo-server/
+[Apollo Client]: https://www.apollographql.com/docs/react
+ 
